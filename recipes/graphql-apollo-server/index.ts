@@ -45,4 +45,5 @@ export default RecipeBuilder()
     message:
       "Please run `blitz prisma generate` in your console/terminal to generate the graphql schema.",
   })
+  .runCommand("blitz prisma generate")
   .build()
